@@ -1,4 +1,6 @@
 ﻿#pragma once
+#ifndef VECTOR2_H
+#define VECTOR2_H
 #include <format>
 #include <ostream>
 
@@ -40,3 +42,4 @@ namespace std
         }
     };
 }
+#endif

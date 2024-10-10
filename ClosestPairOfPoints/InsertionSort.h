@@ -1,4 +1,6 @@
 ﻿#pragma once
+#ifndef INSERTION_SORT_H
+#define INSERTION_SORT_H
 #include <functional>
 #include <vector>
 
@@ -29,3 +31,5 @@ void InsertionSort<T>::Sort(std::vector<T>& vec, std::function<bool(const T& lhs
 {
     Sort(vec, 0, vec.size() - 1, comp);
 }
+
+#endif

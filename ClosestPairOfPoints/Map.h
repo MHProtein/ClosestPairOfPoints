@@ -1,4 +1,7 @@
 ﻿#pragma once
+#ifndef MAP_H
+#define MAP_H
+
 #include <vector>
 #include <ostream>
 #include "Vector2.h"
@@ -40,3 +43,4 @@ private:
     std::vector<Vector2*> _map;
     const int _pointsCount;
 };
+#endif

@@ -1,4 +1,6 @@
 ﻿#pragma once
+#ifndef QUICK_SORT_H
+#define QUICK_SORT_H
 #include <functional>
 #include <vector>
 
@@ -83,4 +85,4 @@ T& QuickSort<T>::MedianOf3(std::vector<T>& vec, int low, int middle, int high, s
     return vec[high - 1];
 }
 
-
+#endif
